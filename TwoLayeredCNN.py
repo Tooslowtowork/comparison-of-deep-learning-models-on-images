@@ -12,7 +12,7 @@ train_data_dir = 'data/train'
 validation_data_dir = 'data/validation'
 nb_train_samples = 300
 nb_validation_samples = 230
-epochs = 2
+epochs = 4
 batch_size = 16
 
 if K.image_data_format() == 'channels_first':
